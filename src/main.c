@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "func.h"
+#include "func_printf.h"
 
 int input(double* number);
 
@@ -9,7 +10,6 @@ int main(void) {
     if (input(&number) == 0) {
         sqrt_function_printf(number);
         square_function_printf(number);
-        sum_function_printf(number);
     } else {
         printf("---> Вы ввели не число,. - завершение программы.\n");
     }

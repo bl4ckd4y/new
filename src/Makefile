@@ -1,5 +1,5 @@
 # Название исполняемого файла
-TARGET = Program
+TARGET = ../build/console.exe
 
 # Компилятор
 CC = gcc
@@ -8,7 +8,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra -std=c11
 
 # Исходные файлы
-SRCS = main.c func.c
+SRCS = main.c func.c func_printf.c
 
 OBJ = $(SRCS:.c=.o)
 
@@ -35,4 +35,4 @@ clean:
 rebuild: clean all
 
 # Псевдонимы
-.PHONY: all function2 clean rebuild
+.PHONY: all clean rebuild function2
