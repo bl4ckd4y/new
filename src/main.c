@@ -8,11 +8,15 @@ void sqrt_function_printf(const double number);
 double square(const double number);
 void square_function_printf(const double number);
 
+double sum(const double number);
+void sum_function_printf(const double number);
+
 int main(void) {
     double number = 0;
     if (input(&number) == 0) {
         sqrt_function_printf(number);
         square_function_printf(number);
+        sum_function_printf(number);
     } else {
         printf("---> Вы ввели не число,. - завершение программы.\n");
     }
@@ -51,10 +55,19 @@ double sqrt_newton(const double number) {
 }
 
 double square(const double number) {
-    int square = number * number;
+    double square = number * number;
     return square;
 }
 
 void square_function_printf(const double number) {
     printf("---> Квадрат числа %.5lf равен %.5lf\n", number, square(number));
+}
+
+double sum(const double number) {
+    double sum = number + number;
+    return sum;
+}
+
+void sum_function_printf(const double number) {
+    printf("---> Сумма числа %.5lf и числа %.5lf равна %.5lf\n", number, number, sum(number));
 }
