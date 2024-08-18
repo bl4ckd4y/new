@@ -4,7 +4,7 @@
 
 #include "func.h"
 
-void hello_world(void) {
+void hello_s21(void) {
     printf("\n\n                       ,----,        ,---,\n");
     printf("                     .'   .' \\    ,`--.' |\n");
     printf("                   ,----,'    |  /    /  :\n");

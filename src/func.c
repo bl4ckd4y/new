@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "func.h"
 
 double sqrt_newton(const double number) {
@@ -14,7 +15,14 @@ double square(const double number) {
     return square;
 }
 
-double sum(const double number) {
-    double sum = number + number;
-    return sum;
+void first_func(void) {
+    double number = 0;
+    if (input(&number) == 0) {
+        printf("\033[2J");
+        hello_s21();
+        sqrt_function_printf(number);
+        square_function_printf(number);
+    } else {
+        printf("---> Вы ввели не число,. - завершение программы.\n");
+    }
 }

@@ -1,19 +1,3 @@
-/*
-                   ,----,        ,---,
-                 .'   .' \    ,`--.' |
-               ,----,'    |  /    /  :
-  .--.--.      |    :  .  ; :    |.' '
- /  /    '     ;    |.'  /  `----':  |
-|  :  /`./     `----'/  ;      '   ' ;
-|  :  ;_         /  ;  /       |   | |
- \  \    `.     ;  /  /-,      '   : ;
-   `----.   \   /  /  /.`|     |   | '
-  /  /`--'  / ./__;      :     '   : |
- '--'.     /   |   :    .'     ;   |.'
-   `--'---'    ;   | .'        '---'
-
- */  
-
 #include <stdio.h>
 
 #include "func.h"
@@ -22,15 +6,8 @@
 int input(double* number);
 
 int main(void) {
-    hello_world();
-    double number = 0;
-
-    if (input(&number) == 0) {
-        sqrt_function_printf(number);
-        square_function_printf(number);
-    } else {
-        printf("---> Вы ввели не число,. - завершение программы.\n");
-    }
+    hello_s21();
+    first_func();
     return 0;
 }
 
