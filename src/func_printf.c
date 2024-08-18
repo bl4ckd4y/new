@@ -1,7 +1,8 @@
 #include "func_printf.h"
-#include "func.h"
 
 #include <stdio.h>
+
+#include "func.h"
 
 void sqrt_function_printf(const double number) {
     if (number < 0) {
