@@ -4,6 +4,21 @@
 
 #include "func.h"
 
+void hello_world(void) {
+    printf("\n\n                       ,----,        ,---,\n");
+    printf("                     .'   .' \\    ,`--.' |\n");
+    printf("                   ,----,'    |  /    /  :\n");
+    printf("      .--.--.      |    :  .  ; :    |.' '\n");
+    printf("     /  /    '     ;    |.'  /  `----':  |\n");
+    printf("    |  :  /`./     `----' /  ;     '   ' ;\n");
+    printf("    |  :  ;_          /  ;  /      |   | |\n");
+    printf("     \\  \\    `.      ;  /  /-,     '   : ;\n");
+    printf("       `----.   \\   /  /  /.`|     |   | '\n");
+    printf("      /  /`--'  / ./__ ;     :     '   : |\n");
+    printf("     '--'.     /   |   :    .'     ;   |.'\n");
+    printf("       `--'---'    ;___| .'        '---'\n\n\n");
+}
+
 void sqrt_function_printf(const double number) {
     if (number < 0) {
         printf("---> Квадратный корень из отрицательного числа не определен,.\n");

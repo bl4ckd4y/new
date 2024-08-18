@@ -1,4 +1,18 @@
-// Проверка CODESPACES №2
+/*
+                   ,----,        ,---,
+                 .'   .' \    ,`--.' |
+               ,----,'    |  /    /  :
+  .--.--.      |    :  .  ; :    |.' '
+ /  /    '     ;    |.'  /  `----':  |
+|  :  /`./     `----'/  ;      '   ' ;
+|  :  ;_         /  ;  /       |   | |
+ \  \    `.     ;  /  /-,      '   : ;
+   `----.   \   /  /  /.`|     |   | '
+  /  /`--'  / ./__;      :     '   : |
+ '--'.     /   |   :    .'     ;   |.'
+   `--'---'    ;   | .'        '---'
+
+ */  
 
 #include <stdio.h>
 
@@ -8,7 +22,9 @@
 int input(double* number);
 
 int main(void) {
+    hello_world();
     double number = 0;
+
     if (input(&number) == 0) {
         sqrt_function_printf(number);
         square_function_printf(number);
