@@ -1,4 +1,4 @@
-// Проверка CODESPACES
+// Проверка CODESPACES №2
 
 #include <stdio.h>
 
