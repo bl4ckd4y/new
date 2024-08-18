@@ -1,3 +1,5 @@
+// Проверка CODESPACES
+
 #include <stdio.h>
 
 #include "func.h"
